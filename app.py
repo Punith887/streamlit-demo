@@ -1,10 +1,5 @@
 import streamlit as st
 
-st.set_page_config(page_title="Streamlit Demo", page_icon="👋")
-
-st.title("Hello, Streamlit!")
-st.write("Your Streamlit app is ready.")
-
-name = st.text_input("What is your name?")
-if name:
-    st.success(f"Welcome, {name}!")
+st.set_page_config(page_title="My Render Streamlit App", layout="wide")
+st.title("🚀 Streamlit on Render via Docker")
+st.write("App is successfully deployed and running inside a Docker container!")
